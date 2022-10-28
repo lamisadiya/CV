@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+    width: 100%;
+  }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  
+	background-color: rgb(253, 254, 255);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    height:3508 px; 
+    width:2480 px;
+}
+.full {
+	width: 50%;
+	max-width: 1000px;
+	min-height: 100px;
+	background-color: rgb(0, 0, 0);
+	display: grid;
+	grid-template-columns: 2fr 4fr;
+}
+.left {
+	position: initial;
+	background-color: rgb(77, 121, 122);
+	padding: 20px;
+
+}
+.right {
+	position: initial;
+	background-color: rgb(97, 145, 145);
+	padding: 20px;
+
+}
+.image, .Contact, .Skills, .Language, .Software, .title,
+.Professional, .Experience, .Education {
+    margin-bottom : 30px;
+color: rgb(0, 0, 0);}
+
+.Education, .Professional, .Experience{margin-top: 2rem;}
+.Contact, .Skills, .Software, .Language{margin-top: 2rem;}
+h3{margin-top: 0.5rem;}
+.image{border-radius: 50%;}
